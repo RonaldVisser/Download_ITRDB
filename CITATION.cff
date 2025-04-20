@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: Download ITRDB
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Ronald M.
+    family-names: Visser
+    orcid: 'https://orcid.org/0000-0001-6966-1729'
+repository-code: 'https://github.com/RonaldVisser/Download_ITRDB'
+abstract: 'This repository consists of a script that enables an easy download of all tree-ring data from the ITRDB (https://www.ncei.noaa.gov/products/paleoclimatology/tree-ring).'
+keywords:
+  - dendrochronology
+  - data
+  - download
+  - itrdb
+  - tree ring
+license: GPL-3.0
+version: '1.0'

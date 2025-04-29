@@ -7,6 +7,7 @@ library(readr)
 # The download_itrdb() function from FedData (https://docs.ropensci.org/FedData/index.html) is used to download chronologies.
 # A simple script was created to download all measurements in the ITRDB.
 # Author of this script: Ronald M. Visser
+# License: GPL v3
 
 # Chronologies
 dir.create("crn")

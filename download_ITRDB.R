@@ -10,8 +10,12 @@ library(readr)
 # License: GPL v3
 
 # Chronologies
-if (!dir.exists("crn")) {
-  dir.create("crn")}
+if (dir.exists("crn")) {
+  unlink("crn", recursive = TRUE)
+  dir.create("crn")
+  } else {
+  dir.create("crn")
+}
 itrdb_crn <- download_itrdb("crn")
 
 # Measurements
